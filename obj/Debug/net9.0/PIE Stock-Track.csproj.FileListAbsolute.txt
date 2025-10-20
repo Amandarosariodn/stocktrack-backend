@@ -1,0 +1,7 @@
+C:\PIE-Stock-Track\obj\Debug\net9.0\PIE Stock-Track.csproj.AssemblyReference.cache
+C:\PIE-Stock-Track\obj\Debug\net9.0\PIE Stock-Track.GeneratedMSBuildEditorConfig.editorconfig
+C:\PIE-Stock-Track\obj\Debug\net9.0\PIE Stock-Track.AssemblyInfoInputs.cache
+C:\PIE-Stock-Track\obj\Debug\net9.0\PIE Stock-Track.AssemblyInfo.cs
+C:\PIE-Stock-Track\obj\Debug\net9.0\PIE Stock-Track.csproj.CoreCompileInputs.cache
+C:\PIE-Stock-Track\obj\Debug\net9.0\PIE Stock-Track.MvcApplicationPartsAssemblyInfo.cache
+C:\PIE-Stock-Track\obj\Debug\net9.0\PIE Stock-Track.sourcelink.json
