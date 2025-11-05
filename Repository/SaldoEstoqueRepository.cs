@@ -29,7 +29,7 @@ namespace PIE_Stock_Track.Repository
         public async Task AdicionarSaldoEstoque(SaldoEstoque saldoEstoque)
         {
 
-            banco.SaldoEstoques.AddAsync(saldoEstoque);
+            await banco.SaldoEstoques.AddAsync(saldoEstoque);
             await banco.SaveChangesAsync();
         }
 

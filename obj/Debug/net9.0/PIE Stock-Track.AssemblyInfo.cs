@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PIE Stock-Track")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f52a5a006f4de52b1db1b4b723f9c2ad6af92a7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PIE Stock-Track")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PIE Stock-Track")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

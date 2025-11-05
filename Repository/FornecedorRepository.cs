@@ -30,7 +30,7 @@ namespace PIE_Stock_Track.Repository
 
         public async Task AdicionarFornecedor(Fornecedor fornecedor)
         {
-            banco.Fornecedores.AddAsync(fornecedor);
+            await banco.Fornecedores.AddAsync(fornecedor);
             await banco.SaveChangesAsync();
         }
 

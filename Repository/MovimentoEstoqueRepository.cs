@@ -28,7 +28,7 @@ namespace PIE_Stock_Track.Repository
 
         public async Task AdicionarMovimentoEstoque(MovimentoEstoque movimentoEstoque)
         {
-            banco.MovimentosEstoque.AddAsync(movimentoEstoque);
+            await banco.MovimentosEstoque.AddAsync(movimentoEstoque);
             await banco.SaveChangesAsync();
         }
 

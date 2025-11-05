@@ -39,7 +39,7 @@ namespace PIE_Stock_Track.Repository
 
         public async Task AdicionarLote(Lote lote)
         {
-            banco.Lotes.AddAsync(lote);
+            await banco.Lotes.AddAsync(lote);
             await banco.SaveChangesAsync();
         }
 

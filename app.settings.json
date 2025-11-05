@@ -1,0 +1,5 @@
+{
+    "ConnectionStrings": {
+        "DefaultConnection": "Server=localhost;Database=EstoqueDB;User=root;Password=123;"
+    }
+}

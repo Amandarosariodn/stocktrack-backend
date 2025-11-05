@@ -44,6 +44,22 @@ namespace PIE_Stock_Track.Service
             return lote;
         }
 
+        public async Task AtualizarSaldo(SaldoEstoque saldoEstoque)
+        {
+            var existente = await _repository.ObterSaldoEstoquePorId(saldoEstoque.LoteId);
+            if (existente == null)
+                throw new Exception("Produto não encontrado");
+
+            await _repository.AtualizarSaldoEstoque(saldoEstoque);
+        }
+
+        public async Task RemoverSaldo(Guid id)
+        {
+            await _repository.RemoverSaldoEstoque(id);
+        }
+
+
+
     }
 
 }

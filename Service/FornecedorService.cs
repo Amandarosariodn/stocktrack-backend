@@ -23,7 +23,7 @@ namespace PIE_Stock_Track.Service
             return _repository.ObterTodosFornecedores();
         }
 
-        public async Task<Fornecedor> EncontrarFornecedorPorId(Guid id)
+        public async Task<Fornecedor?> ObterFornecedorPorId(Guid id)
         {
             var fornecedor = await _repository.ObterFornecedorPorId(id);
             if (fornecedor == null)
